@@ -28,16 +28,34 @@
             <url>https://raw.githubusercontent.com/lokha/maven-repo/repository/</url>
         </repository>
         <repository>
+            <id>mvn-libs</id>
+            <url>https://raw.githubusercontent.com/D4rthS1d10u5/mvn-libs/depend</url>
+        </repository>
+        <repository>
+            <id>spyme-maven-repo</id>
+            <url>https://raw.githubusercontent.com/spymeyt/maven-repo/repository/</url>
+        </repository>
+        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>JCenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <name>bintray</name>
+            <url>https://jcenter.bintray.com</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.13.1</version>
+            <groupId>net.mineland</groupId>
+            <artifactId>ProtocolLib-API</artifactId>
+            <version>4.4.0-lokha-repo</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- Ядро, Paper Spigot -->
