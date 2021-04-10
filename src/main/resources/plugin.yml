@@ -1,0 +1,8 @@
+name: AutoRecipeCrushFix
+version: ${project.version}
+main: ua.lokha.autorecipecrushfix.Main
+
+depend: [ProtocolLib]
+
+  # Кодил это? Впиши себя сам
+authors: [lokha]
